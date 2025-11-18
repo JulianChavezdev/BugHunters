@@ -13,7 +13,7 @@ body{
 }
 
 .header{
-    background-color: #1D3270;
+    background-color: #3e4558;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,27 +51,27 @@ body{
 
 .header .nav-links a{
     font-size: 700;
-    color: #99a5c7;
+    color: #F5F5F5;
     text-decoration: none;
 }
 
 .header .nav-links li a:hover{
-    color: aqua;
+    color: #00B453;
 }
 
-.header .btn button{
+.header .btr button{
     font-weight: 700;
-    color: blueviolet;
+    color: rgb(108, 60, 154);
     padding: 9px 25px;
-    background: #99a5c7;
+    background: #1b48c5;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
-.header .btn button:hover{
-    background-color: brown;
-    color:coral;
-    transform: scale(1.1);
+.header .btr button:hover{
+    background-color: rgb(53, 41, 181);
+    color:rgb(207, 133, 106);
+    transform: scale(2.2);
 }
