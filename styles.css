@@ -1,20 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: 'orbitron', sans-serif; 
+    background-color: #0d1b2a;
     color: white;
 }
-
-.hero {
+.hero{
     width: 100%;
-    background-color: #1c2e6e;
+    min-height: 100vh;
+    background-color: #1E3A8A;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,28 +22,42 @@ body {
     display: flex;
     gap: 50px;
     align-items: center;
-    justify-content: space-between;
-}
-
-.media-column {
-    flex:1;
-    display: flex;
     justify-content: center;
 }
 
-.video-frame{
-    position: relative;
-    border-radius: 18px;
-    overflow: hidden;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.5); 
-    border: 2px solid white;
+.media-column{
     
-    
+    display: flex;
+    justify-content: center;
+}
 .video-frame {
-width: 100%;
-max-width: 600px;
+    position: relative;
+    max-width: 800px;
+    max-height: 800px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: -25px 25px 30px rgba(0,0,0,1);
+    border: 2px solid white ;
+}
+.video-frame video{
+    max-width: auto;
+    width: 800px;
+}
+.text-column{
+    max-width: 800px;
 }
 
+.text-column h1{
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: -1;
+    margin-bottom: 10px;
+}
 
-
+.text-column p{
+    font-size:20px;
+    color: #cbd5e1;
+    max-width: 90%;
+    margin-bottom: 30px;
+}
 
