@@ -18,13 +18,8 @@ body{
     justify-content: flex-end;
     align-items: center;
     height: 85px;
-<<<<<<< HEAD
-    padding: 5px 10px;
-    position:relative
-=======
     padding: 5px 20px;
     position:relative;
->>>>>>> 753b0e766723e4de695a8dd33a4661530bf422fc
 }
 
 .header .logo{
