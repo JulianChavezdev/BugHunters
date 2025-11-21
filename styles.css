@@ -39,6 +39,7 @@ body{
     position:absolute;
     left: 125px;
     top: 10px;
+    font-weight: 700;
 
 }
 .header .logo img:hover{
