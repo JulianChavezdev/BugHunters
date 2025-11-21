@@ -15,22 +15,31 @@ body{
 .header{
     background-color: #1D3270;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    height: 70px;
-    padding: 3px 20%;
+    height: 85px;
+    padding: 5px 10%;
+    position:relative
 }
 
 .header .logo{
     cursor: pointer;
+    margin-right: auto;
 }
 
 .header .logo img{
-    height: 90px  ;
+    height: 70px  ;
     width: auto;
     transition: all 0.3s;
 }
     .header .name{
+    text-decoration: none;
+    color: #F5F5F5;
+    list-style: none;
+    position:absolute;
+    left: 125px;
+    top: 10px;
+
 }
 .header .logo img:hover{
     transform: scale(1.1);
@@ -51,10 +60,9 @@ body{
 
 
 .header .nav-links a{
-    font-size: 15px;
+    font-size: 700;
     color: #F5F5F5;
     text-decoration: none;
-    font-weight: 500;
 }
 
 .header .nav-links li a:hover{
@@ -64,12 +72,12 @@ body{
 .header .btr button{
     font-weight: 700;
     color: #1D3270;
-    padding: 5px 5px;
+    padding: 9px 25px;
     background: #00D068;
     border: none;
     border-radius: 0px;
     cursor: pointer;
-    transition: all 1s ease ;
+    transition: all 0.3s ease 0 ;
 }
 
 .header .btr button:hover{
