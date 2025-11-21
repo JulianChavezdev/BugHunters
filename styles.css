@@ -2,16 +2,11 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
-}
-.contenido {
-    min-height: 80vh;
-    padding: 20px;
 }
 footer {
     background-color: #1a2652;
     color: white;
-    padding: 40px 0;
+    padding: 30px 0;
     width: 100%;
 }
 .contenedor-footer {
@@ -25,23 +20,27 @@ footer {
     display: flex;
     align-items: center;
 }
-.logo-texto {
+.mi-logo {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+}
+.caja-izquieda h2 {
     font-family: 'Orbitron', sans-serif;
-    margin-left: 15px;
-    font-size: 24px;
+    font-size: 22px;
+    margin: 0;
 }
 .caja-derecha {
     text-align: right;
-    font-size: 14px;
+    font-size: 12px;
 }
-caja-derecha p {
-    margin-bottom: 10px;
+.caja-derecha p {
+    margin: 0 0 5px o;
 }
 .link a {
     color: white;
     text-decoration: none;
-    margin-left: 20px;
-    font-weight: bold;
+    margin-left: 15px;
 }
 .link a:hover {
     text-decoration: underline;
