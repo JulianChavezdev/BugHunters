@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #1D3270;
+    background-color: #ffffff;
 }
 
 .header{
@@ -18,8 +18,8 @@ body{
     justify-content: flex-end;
     align-items: center;
     height: 85px;
-    padding: 5px 10%;
-    position:relative
+    padding: 5px 20px;
+    position:relative;
 }
 
 .header .logo{
@@ -28,18 +28,21 @@ body{
 }
 
 .header .logo img{
-    height: 70px  ;
+    height: 100px;
     width: auto;
+    left: 120px;
+    top: -7px;
     transition: all 0.3s;
+    position: absolute;
 }
     .header .name{
     text-decoration: none;
     color: #F5F5F5;
     list-style: none;
     position:absolute;
-    left: 120px;
-    top: 13px;
-    font-weight: 700;
+    left: 100px;
+    top: 15px;
+    font-weight: 800;
 
 }
 .header .logo img:hover{
@@ -79,6 +82,7 @@ body{
     border-radius: 3px;
     cursor: pointer;
     transition: all 0.3s ease 0 ;
+    font-weight: 800;
 }
 
 .header .btr button:hover{
