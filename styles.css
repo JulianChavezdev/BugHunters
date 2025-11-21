@@ -29,13 +29,13 @@ footer {
     align-items: center;
 }
 .logo {
-    width: 60px;
+    width: 100px;
     height: auto;
     margin-right: 15px;
 }
 .title {
     font-family: 'Orbitron', sans-serif;
-    font-size: 22px;
+    font-size: 30px;
     margin: 0;
 }
 .right-section {
