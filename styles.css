@@ -2,46 +2,55 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
 }
 footer {
     background-color: #1a2652;
     color: white;
     padding: 30px 0;
     width: 100%;
+    margin-top: auto;
 }
-.contenedor-footer {
+.container {
     width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.caja-izquieda {
+.left-section {
     display: flex;
     align-items: center;
 }
-.mi-logo {
+.logo {
     width: 60px;
     height: auto;
     margin-right: 15px;
 }
-.caja-izquieda h2 {
+.title {
     font-family: 'Orbitron', sans-serif;
     font-size: 22px;
     margin: 0;
 }
-.caja-derecha {
+.right-section {
     text-align: right;
     font-size: 12px;
 }
-.caja-derecha p {
-    margin: 0 0 5px o;
+.copyright {
+    margin: 0 0 5px 0;
 }
-.link a {
-    color: white;
+.footer-links a {
+    color:white;
     text-decoration: none;
     margin-left: 15px;
+    font-weight: bold;
 }
-.link a:hover {
+.footer-links a:hover{
     text-decoration: underline;
 }
