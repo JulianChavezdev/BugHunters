@@ -14,6 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .container{
@@ -41,23 +42,50 @@ body {
 }
 .video-frame video{
     max-width: auto;
-    width: 800px;
+    width: 700px;
 }
 .text-column{
     max-width: 800px;
 }
 
 .text-column h1{
-    font-size: 40px;
+    font-size: 45px;
+    position:absolute;
+    top: 110px;
     font-weight: bolder;
     letter-spacing: -1;
     margin-bottom: 10px;
+    display: flex;
+    
 }
 
 .text-column p{
     font-size:20px;
+    position: absolute;
+    top: 30px;
     color: #cbd5e1;
     max-width: 90%;
     margin-bottom: 30px;
+    position: relative;
 }
+.btn{
+    padding: 13px 20px;
+    font-weight: 800;
+    text-decoration: none;
+    font-family: 'orbitron', sans-serif; 
+    background-color: #00D068;
+    color: #1E3A8A;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: -6px 6px 15px black;
+    position: absolute;
+    bottom: 150px;
+    right: 225px;
+}
+
+.cta .bt button:hover{
+    transform: translateY(2,2)
+}
+
 
