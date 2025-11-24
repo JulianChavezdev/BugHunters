@@ -28,10 +28,10 @@ body{
 }
 
 .header .logo img{
-    height: 50px;
+    height: 60px;
     width: auto;
     left: 120px;
-    top: 20px;
+    top: 11px;
     transition: all 0.3s;
     position: absolute;
 }
@@ -41,8 +41,9 @@ body{
     list-style: none;
     position:absolute;
     left: 100px;
-    top: 15px;
+    top: 14px;
     font-weight: 800;
+    font-size: 25px;
 
 }
 .header .logo img:hover{
@@ -51,6 +52,9 @@ body{
 
 .header .nav-links{
     list-style:none;
+    position: absolute;
+    right: 400px;
+    top: 30px;
 }
 
 .header .nav-links li{
@@ -67,6 +71,7 @@ body{
     font-size: 700;
     color: #F5F5F5;
     text-decoration: none;
+    font-size: 16px;
 }
 
 .header .nav-links li a:hover{
@@ -76,7 +81,7 @@ body{
 .header .btr button{
     font-weight: 700;
     color: #1D3270;
-    padding: 9px 25px;
+    padding: 9px 20px;
     background: #00D068;
     border: none;
     border-radius: 3px;
