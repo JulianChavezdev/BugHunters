@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:wght@300;400;700&display=swap');
 
 body {
     background-color: #1D3270; 
@@ -48,7 +48,7 @@ body {
 }
 
 .imagen-tarjeta {
-    width: 60px;
+    width: 100px;
     height: auto;
     margin-bottom: 20px;
     display: block;
@@ -56,9 +56,23 @@ body {
     margin-right: auto;
 }
 
+.icono-testing {
+    width: 105px;
+}
+
+.icono-auditoria {
+    width: 90px;
+    margin-top: -10px; 
+    margin-bottom: 5px;
+}
+
+.icono-api {
+    width: 80px;
+}
+
 .titulo-tarjeta {
     color: #00D068;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     margin-bottom: 15px;
 }
