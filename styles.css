@@ -1,69 +1,68 @@
 body {
-            background-color: #1e293b; /* Fondo oscuro para que se vea bien */
-            margin: 0;
-            font-family: 'Roboto', sans-serif;
-        }
+    background-color: #1e293b; 
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
 
-        .seccion-servicios {
-            text-align: center;
-            max-width: 1200px;
-            width: 100%;
-            margin: 0 auto; /* Centrado horizontal */
-            padding: 50px 20px;
-        }
+.seccion-servicios {
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
 
-        .titulo-principal {
-            font-family: 'Orbitron', sans-serif;
-            color: #00d9ff;
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
+.titulo-principal {
+    font-family: 'Orbitron', sans-serif;
+    color: #00d9ff;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
 
-        .descripcion-servicios {
-            color: white;
-            font-size: 18px;
-            margin-bottom: 50px;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-            line-height: 1.5;
-        }
+.descripcion-servicios {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
 
-        /* --- CLASE CLAVE QUE FALTABA EN TU HTML --- */
-        .contenedor-tarjetas {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-        }
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
 
-        .tarjeta {
-            background-color: #152040;
-            border-radius: 10px;
-            padding: 30px;
-            width: 300px;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        }
+.tarjeta {
+    background-color: #152040;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
 
-        .imagen-tarjeta {
-            width: 60px;
-            height: auto;
-            margin-bottom: 20px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
+.imagen-tarjeta {
+    width: 60px;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-        .titulo-tarjeta {
-            color: #00ff41;
-            font-size: 20px;
-            font-weight: bold;
-            margin-bottom: 15px;
-        }
+.titulo-tarjeta {
+    color: #00ff41;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
 
-        .texto-tarjeta {
-            color: #cccccc;
-            font-size: 14px;
-            line-height: 1.4;
-        }
+.texto-tarjeta {
+    color: #cccccc;
+    font-size: 14px;
+    line-height: 1.4;
+}
