@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 
 *{
@@ -8,13 +7,11 @@
     margin: 0;
     padding: 0;
     font-family: "orbitron", sans-serif;
-    
     font-size: 16px; 
 }
 
 body{
-    
-    background-color: #1D3270; 
+    background-color: #1E3A8A; 
     color: white;
     min-height: 100vh;
     display: flex;
@@ -46,6 +43,7 @@ body{
     transition: all 0.3s;
     position: absolute;
 }
+
 .header .name{
     text-decoration: none;
     color: #F5F5F5;
@@ -56,6 +54,7 @@ body{
     font-weight: 800;
     font-size: 25px;
 }
+
 .header .logo img:hover{
     transform: scale(1.1);
 }
@@ -84,11 +83,11 @@ body{
 }
 
 .header .nav-links li a:hover{
-    color: #00D068; /* Tu verde */
+    color: #00D068; 
 }
 
 .header .btr button{
-    font-weight: 700;
+    font-weight: 900;
     color: #1D3270;
     padding: 9px 20px;
     background: #00D068;
@@ -105,6 +104,7 @@ body{
     transform: scale(1.1);
 }
 
+
 main {
     flex: 1;
     display: flex;         
@@ -113,58 +113,18 @@ main {
 }
 
 
-.footer {
-    background-color: #15234d; 
-    color: white;
-    padding: 20px 0;
+.team-section {
+    text-align: center;
+
+    padding-top: 50px; 
     width: 100%;
-    margin-top: auto;
-}
-.container {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.left-section {
-    display: flex;
-    align-items: center;
-}
-.footer .logo {
-    width: 50px;
-    height: auto;
-    margin-right: 15px;
-}
-.title {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 30px;
-    margin: 0px;
-}
-.right-section {
-    text-align: right;
-    font-size: 14px;
-}
-.copyright {
-    margin: 0 0 5px 0;
-}
-.footer-links a {
-    color:white;
-    text-decoration: none;
-    margin-left: 15px;
-    font-weight: bold;
-    font-size: 15px;
-}
-.footer-links a:hover{
-    text-decoration: underline;
+    max-width: 1300px;
 }
 
-
-.static-layout {
-    width: 1300px; 
-    margin: 0 auto;
-    padding: 40px 0;
+.team-header h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .tech-desc {
@@ -172,81 +132,6 @@ main {
     font-size: 18px;
     line-height: 1.6;
     color: #d1d5db;
-}
-
-
-.hero-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 100px; 
-    gap: 50px;
-}
-
-.hero-video-col {
-    width: 600px; 
-}
-
-
-.video-frame {
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 15px;
-    padding: 5px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-    background: rgba(0,0,0,0.2);
-}
-
-.hero-video-col img, 
-.hero-video-col video {
-    width: 100%;
-    display: block;
-    border-radius: 10px;
-}
-
-.hero-text-col {
-    width: 600px; 
-}
-
-.hero-text-col h1 {
-    font-size: 50px;
-    line-height: 1.1;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    text-shadow: 0 0 20px rgba(0, 208, 104, 0.2); 
-}
-
-.hero-text-col p {
-    margin-bottom: 40px;
-}
-
-.btn-cta {
-    display: inline-block;
-    background-color: #00D068; /* Tu verde */
-    color: #1D3270;
-    padding: 15px 40px;
-    font-weight: 800;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: transform 0.2s, box-shadow 0.2s;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-
-.btn-cta:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(0, 208, 104, 0.4);
-    background-color: #ffffff;
-    color: #00D068;
-}
-
-.team-section {
-    text-align: center;
-}
-
-.team-header h2 {
-    font-size: 40px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
 }
 
 .team-header p {
@@ -257,18 +142,20 @@ main {
 .team-grid {
     display: flex;
     justify-content: space-between;
-    gap: 80px;
+    gap: 30px;
+
+    justify-content: center;
 }
 
 .team-card {
-    width: 240px; 
+    width: 250px; 
     text-align: left;
 }
 
 
 .photo-link {
     display: block;
-    height: 320px;
+    height: 380px;
     overflow: hidden;
     border-radius: 10px;
     border: 2px solid transparent;
@@ -284,7 +171,6 @@ main {
     transition: transform 0.4s ease;
     filter: brightness(0.9);
 }
-
 
 .photo-link:hover {
     border-color: #00D068;
