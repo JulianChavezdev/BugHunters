@@ -167,4 +167,154 @@ main {
     padding: 40px 0;
 }
 
+.tech-desc {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 18px;
+    line-height: 1.6;
+    color: #d1d5db;
+}
 
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px; 
+    gap: 50px;
+}
+
+.hero-video-col {
+    width: 600px; 
+}
+
+
+.video-frame {
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.2);
+}
+
+.hero-video-col img, 
+.hero-video-col video {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.hero-text-col {
+    width: 600px; 
+}
+
+.hero-text-col h1 {
+    font-size: 50px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px rgba(0, 208, 104, 0.2); 
+}
+
+.hero-text-col p {
+    margin-bottom: 40px;
+}
+
+.btn-cta {
+    display: inline-block;
+    background-color: #00D068; /* Tu verde */
+    color: #1D3270;
+    padding: 15px 40px;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.btn-cta:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 208, 104, 0.4);
+    background-color: #ffffff;
+    color: #00D068;
+}
+
+.team-section {
+    text-align: center;
+}
+
+.team-header h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.team-header p {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.team-card {
+    width: 240px; 
+    text-align: left;
+}
+
+
+.photo-link {
+    display: block;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.photo-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    filter: brightness(0.9);
+}
+
+
+.photo-link:hover {
+    border-color: #00D068;
+    box-shadow: 0 0 20px rgba(0, 208, 104, 0.4);
+}
+
+.photo-link:hover img {
+    transform: scale(1.1); 
+    filter: brightness(1.1);
+}
+
+.member-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #00D068 ;
+}
+
+.member-role {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.member-desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #cfd8dc;
+}
