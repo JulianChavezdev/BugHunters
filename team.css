@@ -204,3 +204,53 @@ main {
     line-height: 1.4;
     color: #cfd8dc;
 }
+
+main {
+    flex: 1;
+}
+.footer {
+    background-color: #1a2652;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: auto;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+.title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+}
+.right-section {
+    text-align: right;
+    font-size: 14px;
+}
+.copyright {
+    margin: 0 0 5px 0;
+}
+.footer-links a {
+    color:white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.footer-links a:hover{
+    text-decoration: underline;
+}
