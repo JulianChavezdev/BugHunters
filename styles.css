@@ -49,9 +49,9 @@ body {
 }
 
 .text-column h1{
-    font-size: 45px;
+    font-size: 55px;
     position:absolute;
-    top: 110px;
+    top: 235px;
     font-weight: bolder;
     letter-spacing: -1;
     margin-bottom: 10px;
@@ -60,17 +60,18 @@ body {
 }
 
 .text-column p{
-    font-size:20px;
+    font-size:30px;
     position: absolute;
-    top: 30px;
-    color: #cbd5e1;
-    max-width: 90%;
+    top: 35px;
+    color: white;
+    max-width: 100%;
     margin-bottom: 30px;
     position: relative;
 }
 .btn{
-    padding: 13px 20px;
+    padding: 20px 20px;
     font-weight: 800;
+    font-size: 18px;
     text-decoration: none;
     font-family: 'orbitron', sans-serif; 
     background-color: #00D068;
@@ -80,8 +81,8 @@ body {
     cursor: pointer;
     box-shadow: -6px 6px 15px black;
     position: absolute;
-    bottom: 150px;
-    right: 225px;
+    bottom: 250px;
+    right: 350px;
     
 }
 
@@ -90,5 +91,3 @@ body {
     color: #00D068;
     transform: scale(1.1,1.1)
 }
-
-
