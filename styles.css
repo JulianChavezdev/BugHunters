@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 .how-it-works {
-    background-color: #00004d; 
+    background-color: #00004d;
     color: #ffffff;
     padding: 60px 20px;
-    font-family: orbitron; 
+    font-family: Arial, sans-serif; 
     text-align: center;
 }
 
@@ -30,7 +30,7 @@
 .how-it-works .step {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 31px;
     text-align: left;
 }
 
