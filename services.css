@@ -1,19 +1,80 @@
-@import url('https://fonts.googleapis.com/css?family=0rbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:wght@400;700&display=swap');
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
     background-color: #1a2652;
     color: white;
 }
 
+.header {
+    background-color: #151e42;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2a3b75;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-container img {
+    height: 40px;
+}
+
+.brand-name {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-links a:hover {
+    color: #00ff41;
+}
+
+.btn-header {
+    background-color: #00bf31;
+    color: #1a2652;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.btn-header:hover {
+    background-color: #00ff41;
+}
+
 .seccion-planes {
     text-align: center;
-    padding: 50px 20px;
+    padding: 60px 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -21,18 +82,20 @@ body {
 .titulo-planes {
     font-family: 'Orbitron', sans-serif;
     color: #00ff41;
-    font-size: 42px;
-    margin-bottom: 10px;
+    font-size: 48px;
+    margin-bottom: 20px;
     text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 
 .subtitulo-planes {
     font-size: 18px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 .contenedor-tarjetas {
@@ -43,72 +106,125 @@ body {
 }
 
 .tarjeta-plan {
-    background-color: #5c7cfa; 
     background: linear-gradient(180deg, #6c88d6 0%, #516cb8 100%);
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 30px;
-    width: 300px;
+    width: 320px;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 500px;
 }
 
 .nombre-plan {
     font-family: 'Orbitron', sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #1a2652;
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 .precio-plan {
     font-family: 'Orbitron', sans-serif;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 32px;
+    font-weight: 900;
     color: #1a2652;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #1a2652;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #1a2652;
     display: inline-block;
     padding-bottom: 5px;
+    width: fit-content;
 }
 
 .descripcion-plan {
-    font-weight: bold;
+    font-weight: 800;
     margin-bottom: 20px;
     color: #1a2652;
-    min-height: 40px;
+    font-size: 16px;
+    line-height: 1.2;
 }
 
 .lista-caracteristicas {
     text-align: left;
     margin-bottom: 30px;
-    padding-left: 20px;
+    list-style: none;
     font-size: 14px;
     color: white;
+    line-height: 1.4;
 }
 
 .lista-caracteristicas li {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
-
 
 .boton-plan {
     background-color: #00bf31;
     color: #1a2652;
     border: none;
-    padding: 15px;
+    padding: 12px;
     width: 100%;
     font-family: 'Orbitron', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s;
+    margin-top: auto;
+    text-transform: capitalize;
 }
 
 .boton-plan:hover {
     background-color: #00ff41;
+}
+
+footer {
+    background-color: #151e42;
+    border-top: 1px solid #2a3b75;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-footer {
+    height: 50px;
+}
+
+.footer-brand {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 15px;
+    font-weight: bold;
 }
