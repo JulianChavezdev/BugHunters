@@ -1,26 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=0rbitron:wght@400..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 body {
-    background-color: #1C2C54; /* Fondo principal */
-    color: #F5F5F5; /* Texto claro */
+    background-color: #1C2C54;
+    color: #F5F5F5;
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
     margin: 0;
-    padding: 0; 
+    padding: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
-
-/* --- HEADER --- */
 .header {
-    background-color: #1D3270; 
+    background-color: #1D3270;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -73,13 +69,18 @@ body {
     font-size: 16px;
 }
 .header .nav-links li a:hover {
-    color: #00B453; /* Verde acento */
+    color: #00B453;
+}
+.header .btr {
+    position: absolute;
+    right: 120px;
+    top: 22px;
 }
 .header .btr button {
     font-weight: 800;
     color: #1D3270;
     padding: 9px 20px;
-    background: #00D068; /* Verde brillante */
+    background: #00D068;
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -90,22 +91,18 @@ body {
     color: #000068;
     transform: scale(1.1);
 }
-
-/* --- SECCIÓN DE SERVICIOS --- */
 .services {
-    background-color: #1C2C54; /* Fondo principal */
+    background-color: #1C2C54;
     padding: 50px 0;
 }
-
 .titulo {
     font-family: 'Orbitron', sans-serif;
-    color: #00B453; /* Verde acento */
+    color: #00B453;
     font-size: 40px;
     margin-bottom: 20px;
     padding: 0 10px;
     margin-top: 0;
 }
-
 .introduccion {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 18px;
@@ -114,7 +111,6 @@ body {
     margin: 0 auto 50px auto;
     padding: 0 10px;
 }
-
 .planes-container {
     display: flex;
     justify-content: center;
@@ -122,23 +118,20 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .plan-card {
-    background-color: #2B4C7E; /* Fondo de la tarjeta */
+    background-color: #2B4C7E;
     width: 350px;
     padding: 25px;
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-
 .subtitulo {
     font-family: 'Exo 2', sans-serif;
     color: #F5F5F5;
     font-size: 24px;
     margin-bottom: 5px;
 }
-
 .precio {
     font-family: 'Exo 2', sans-serif;
     font-weight: bold;
@@ -147,7 +140,6 @@ body {
     margin-top: 0;
     margin-bottom: 20px;
 }
-
 .descripcion {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 600;
@@ -158,7 +150,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 .caracteristicas {
     list-style: none;
     padding: 0;
@@ -171,22 +162,19 @@ body {
     text-align: left;
     color: #F5F5F5;
 }
-
 .caracteristicas li:before {
     content: "•";
-    color: #00B453; /* Verde acento */
+    color: #00B453;
     font-weight: bold;
-    display: inline-block; 
+    display: inline-block;
     width: 1em;
     margin-left: -1em;
 }
-
 .enterprise-plan .caracteristicas {
     min-height: 120px;
 }
-
 .boton-solicitar {
-    background-color: #00B453; /* Verde acento */
+    background-color: #00B453;
     color: #F5F5F5;
     border: none;
     padding: 12px 30px;
@@ -197,14 +185,11 @@ body {
     transition: background-color 0.3s;
     font-family: 'Exo 2', sans-serif;
 }
-
 .boton-solicitar:hover {
-    background-color: #00D068; /* Verde brillante */
+    background-color: #00D068;
 }
-
-/* --- FOOTER --- */
 footer {
-    background-color: #1a2652; 
+    background-color: #1a2652;
     color: #F5F5F5;
     padding: 20px 0;
     width: 100%;
