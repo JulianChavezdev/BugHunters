@@ -1,253 +1,114 @@
 @import url('https://fonts.googleapis.com/css?family=0rbitron:wght@400..900&display=swap');
 
 * {
-box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #1C2C54;
-    color: #F5F5F5;
-    font-family: 'IBM Plex Sans', sans-serif;
-    text-align: center;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0; 
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    background-color: #1a2652;
+    color: white;
 }
 
-.header {
-    background-color: #1D3270; 
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 85px;
-    padding: 5px 20px;
-    position: relative;
-}
-.header .logo {
-    cursor: pointer;
-    margin-right: auto;
-}
-.header .logo img {
-    height: 60px;
-    width: auto;
-    left: 120px;
-    top: 11px;
-    transition: all 0.3s;
-    position: absolute;
-}
-.header .name {
-    text-decoration: none;
-    color: #F5F5F5;
-    list-style: none;
-    position: absolute;
-    left: 100px;
-    top: 14px;
-    font-weight: 800;
-    font-size: 25px;
-}
-.header .logo img:hover {
-    transform: scale(1.1);
-}
-.header .nav-links {
-    list-style: none;
-    position: absolute;
-    right: 400px;
-    top: 30px;
-}
-.header .nav-links li {
-    display: inline-block;
-    padding: 0 20px;
-}
-.header .nav-links li:hover {
-    transform: scale(1.1);
-}
-.header .nav-links a {
-    font-weight: 700;
-    color: #F5F5F5;
-    text-decoration: none;
-    font-size: 16px;
-}
-.header .nav-links li a:hover {
-    color: #00B453;
-}
-.header .btr button {
-    font-weight: 800;
-    color: #1D3270;
-    padding: 9px 20px;
-    background: #00D068;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: all 0.3s ease 0;
-}
-.header .btr button:hover {
-    background-color: #F5F5F5;
-    color: #000068;
-    transform: scale(1.1);
-}
-
-.services {
-    background-color: #1C2C54;
-    padding: 50px 0;
-}
-
-.titulo {
-    font-family: 'Orbitron', sans-serif;
-    color: #00B453;
-    font-size: 40px;
-    margin-bottom: 20px;
-    padding: 0 10px;
-    margin-top: 0;
-}
-
-.introduccion {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-    max-width: 800px;
-    margin: 0 auto 50px auto;
-    padding: 0 10px;
-}
-
-.planes-container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+.seccion-planes {
+    text-align: center;
+    padding: 50px 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.plan-card {
-    background-color: #2B4C7E;
-    width: 350px;
-    padding: 25px;
-    border-radius: 5px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.subtitulo {
-    font-family: 'Exo 2', sans-serif;
-    color: #F5F5F5;
-    font-size: 24px;
-    margin-bottom: 5px;
-}
-
-.precio {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: bold;
-    color: #F5F5F5;
-    font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-.descripcion {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 600;
-    color: #F5F5F5;
-    margin-bottom: 25px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.caracteristicas {
-    list-style: none;
-    padding: 0;
-    margin-top: 0;
-    margin-bottom: 40px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 14px;
-    line-height: 1.6;
-    display: inline-block;
-    text-align: left;
-    color: #F5F5F5;
-}
-
-.caracteristicas li:before {
-    content: "•";
-    color: #00B453;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-}
-
-.enterprise-plan .caracteristicas {
-    min-height: 120px;
-}
-
-.boton-solicitar {
-    background-color: #00B453; 
-    color: #F5F5F5;
-    border: none;
-    padding: 12px 30px;
+.titulo-planes {
+    font-family: 'Orbitron', sans-serif;
+    color: #00ff41;
+    font-size: 42px;
+    margin-bottom: 10px;
     text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    font-family: 'Exo 2', sans-serif;
 }
 
-.boton-solicitar:hover {
-    background-color: #00D068;
+.subtitulo-planes {
+    font-size: 18px;
+    margin-bottom: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
 }
 
-
-footer {
-    background-color: #1a2652; 
-    color: #F5F5F5;
-    padding: 20px 0;
-    width: 100%;
-    margin-top: auto;
-}
-.footer {
-    width: 100%;
-}
-.container {
-    width: 90%;
-    margin: 0 auto;
+.contenedor-tarjetas {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    gap: 30px;
     flex-wrap: wrap;
 }
-.left-section {
+
+.tarjeta-plan {
+    background-color: #5c7cfa; 
+    background: linear-gradient(180deg, #6c88d6 0%, #516cb8 100%);
+    border-radius: 15px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.logo {
-    width: 50px;
-    height: auto;
-    margin-right: 15px;
-}
-.title {
+
+.nombre-plan {
     font-family: 'Orbitron', sans-serif;
-    font-size: 30px;
-    margin: 0px;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1a2652;
+    font-weight: 900;
 }
-.right-section {
-    text-align: right;
-    font-size: 14px;
-}
-.copyright {
-    margin: 0 0 5px 0;
-    color: #F5F5F5;
-}
-.footer-links a {
-    color: #F5F5F5;
-    text-decoration: none;
-    margin-left: 15px;
+
+.precio-plan {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
     font-weight: bold;
-    font-size: 15px;
+    color: #1a2652;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1a2652;
+    display: inline-block;
+    padding-bottom: 5px;
 }
-.footer-links a:hover {
-    text-decoration: underline;
+
+.descripcion-plan {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1a2652;
+    min-height: 40px;
+}
+
+.lista-caracteristicas {
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+.lista-caracteristicas li {
+    margin-bottom: 10px;
+}
+
+
+.boton-plan {
+    background-color: #00bf31;
+    color: #1a2652;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.boton-plan:hover {
+    background-color: #00ff41;
 }
