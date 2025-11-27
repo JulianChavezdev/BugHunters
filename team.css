@@ -1,92 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "orbitron", sans-serif;
-    font-size: 20px;
-}
-
-body{
-    background-color: #ffffff;
-}
-
-.header{
-    background-color: #1D3270;
+.header {
+    background-color: #1a2652; /* Tu azul oscuro de fondo */
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    height: 85px;
-    padding: 5px 20px;
-    position:relative;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
 
-.header .logo{
-    cursor: pointer;
-    margin-right: auto;
-}
-
-.header .logo img{
-    height: 100px;
+.logo img {
+    height: 50px;
     width: auto;
-    left: 120px;
-    top: -7px;
-    transition: all 0.3s;
-    position: absolute;
+    display: block;
 }
-    .header .name{
-    text-decoration: none;
-    color: #F5F5F5;
+
+.barra-navegacion {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.marca-texto {
     list-style: none;
-    position:absolute;
-    left: 100px;
-    top: 15px;
-    font-weight: 800;
-
-}
-.header .logo img:hover{
-    transform: scale(1.1);
-}
-
-.header .nav-links{
-    list-style:none;
-}
-
-.header .nav-links li{
-    display:inline-block;
-    padding: 0 20px;
-}
-
-.header .nav-links li:hover{
-    transform: scale(1.1);
-}
-
-
-.header .nav-links a{
-    font-size: 700;
-    color: #F5F5F5;
-    text-decoration: none;
-}
-
-.header .nav-links li a:hover{
-    color: #00B453;
-}
-
-.header .btr button{
+    padding: 0;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 20px;
     font-weight: 700;
-    color: #1D3270;
-    padding: 9px 25px;
-    background: #00D068;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: all 0.3s ease 0 ;
-    font-weight: 800;
+    letter-spacing: 1px;
 }
 
-.header .btr button:hover{
-    background-color: #F5F5F5;
-    color:#00D068;
-    transform: scale(1.1);
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00ff41;
+}
+
+.btn-presupuesto {
+    background-color: #00bf31;
+    color: #1a2652;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+    border: none;
+    display: inline-block;
+}
+
+.btn-presupuesto:hover {
+    background-color: #00ff41;
+    transform: scale(1.05);
 }
