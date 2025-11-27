@@ -85,7 +85,7 @@ body {
     color: #00D068;
 }
 
-/* Botón del Header */
+
 .header .btr button {
     font-weight: 800;
     color: #1D3270;
@@ -103,19 +103,22 @@ body {
     transform: scale(1.1);
 }
 
+.body .hero{
+    position: relative;
+}
+.hero{
 
-.hero {
     width: 100%;
-
-    min-height: calc(100vh - 85px); 
+    min-height: 100vh;
     background-color: #1E3A8A;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
+    bottom: 40px;
 }
 
-.container {
+.container{
     width: 100%;
     max-width: 1300px;
     display: flex;
@@ -124,79 +127,68 @@ body {
     justify-content: center;
 }
 
-
-.media-column {
+.media-column{
+    
     display: flex;
     justify-content: center;
 }
-
 .video-frame {
     position: relative;
     max-width: 800px;
+    max-height: 800px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: -25px 25px 30px rgba(0,0,0,1);
-    border: 2px solid white;
+    border: 2px solid white ;
 }
-
-.video-frame video {
+.video-frame video{
+    max-width: auto;
     width: 700px;
-    max-width: 100%; 
-    display: block; 
 }
-
-/* Columna Derecha: Textos */
-.text-column {
+.text-column{
     max-width: 800px;
-    position: relative; 
-    height: 600px; 
-    width: 100%;
 }
 
-.text-column h1 {
+.text-column h1{
     font-size: 55px;
-    position: absolute;
-    top: 100px; 
+    position:absolute;
+    top: 270px;
     font-weight: bolder;
-    letter-spacing: -1px;
+    letter-spacing: -1;
     margin-bottom: 10px;
     display: flex;
-    line-height: 1.1;
+    
 }
 
-.text-column p {
-    font-size: 30px;
+.text-column p{
+    font-size:30px;
     position: absolute;
-    top: 250px; 
+    top: 50px;
     color: white;
     max-width: 100%;
     margin-bottom: 30px;
+    position: relative;
 }
-
-
-.btn {
+.btn{
     padding: 20px 20px;
     font-weight: 800;
     font-size: 18px;
     text-decoration: none;
-    font-family: 'orbitron', sans-serif;
+    font-family: 'orbitron', sans-serif; 
     background-color: #00D068;
     color: #1E3A8A;
     border: none;
     border-radius: 3px;
     cursor: pointer;
     box-shadow: -6px 6px 15px black;
-    
-    
     position: absolute;
-    bottom: 100px;
-    left: 0; 
-    transition: all 0.3s ease;
+    bottom: 250px;
+    right: 350px;
+    
 }
 
-
-.btn:hover {
+.cta .bt button:hover{
     background-color: white;
     color: #00D068;
-    transform: scale(1.1);
+    transform: scale(1.1,1.1)
 }
