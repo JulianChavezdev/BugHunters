@@ -7,8 +7,8 @@ box-sizing: border-box;
 }
 
 body {
-    background-color: #1C2C54; /* Fondo principal */
-    color: #F5F5F5; /* Texto claro */
+    background-color: #1C2C54;
+    color: #F5F5F5;
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
     margin: 0;
@@ -18,7 +18,6 @@ body {
     min-height: 100vh;
 }
 
-/* --- HEADER --- */
 .header {
     background-color: #1D3270; 
     display: flex;
@@ -73,13 +72,13 @@ body {
     font-size: 16px;
 }
 .header .nav-links li a:hover {
-    color: #00B453; /* Verde acento */
+    color: #00B453;
 }
 .header .btr button {
     font-weight: 800;
     color: #1D3270;
     padding: 9px 20px;
-    background: #00D068; /* Verde brillante */
+    background: #00D068;
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -91,15 +90,14 @@ body {
     transform: scale(1.1);
 }
 
-/* --- SECCIÓN DE SERVICIOS --- */
 .services {
-    background-color: #1C2C54; /* Fondo principal */
+    background-color: #1C2C54;
     padding: 50px 0;
 }
 
 .titulo {
     font-family: 'Orbitron', sans-serif;
-    color: #00B453; /* Verde acento */
+    color: #00B453;
     font-size: 40px;
     margin-bottom: 20px;
     padding: 0 10px;
@@ -124,7 +122,7 @@ body {
 }
 
 .plan-card {
-    background-color: #2B4C7E; /* Fondo de la tarjeta */
+    background-color: #2B4C7E;
     width: 350px;
     padding: 25px;
     border-radius: 5px;
@@ -174,7 +172,7 @@ body {
 
 .caracteristicas li:before {
     content: "•";
-    color: #00B453; /* Verde acento */
+    color: #00B453;
     font-weight: bold;
     display: inline-block; 
     width: 1em;
@@ -186,7 +184,7 @@ body {
 }
 
 .boton-solicitar {
-    background-color: #00B453; /* Verde acento */
+    background-color: #00B453; 
     color: #F5F5F5;
     border: none;
     padding: 12px 30px;
@@ -199,10 +197,10 @@ body {
 }
 
 .boton-solicitar:hover {
-    background-color: #00D068; /* Verde brillante */
+    background-color: #00D068;
 }
 
-/* --- FOOTER --- */
+
 footer {
     background-color: #1a2652; 
     color: #F5F5F5;
