@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 .how-it-works {
-    background-color: #00004d;
+    background-color: #1e3a8a;
     color: #ffffff;
     padding: 60px 20px;
-    font-family: Arial, sans-serif; 
+    font-family:orbitron; 
     text-align: center;
 }
 
@@ -30,7 +30,7 @@
 .how-it-works .step {
     display: flex;
     align-items: center;
-    margin-bottom: 31px;
+    margin-bottom: 30px;
     text-align: left;
 }
 
@@ -38,37 +38,20 @@
     margin-bottom: 0;
 }
 
-.how-it-works .icon-wrapper {
-    width: 60px; 
-    height: 60px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-    flex-shrink: 0; 
-}
-
-.how-it-works .icon-wrapper.green {
-    background-color: #32cd32; 
-    color: #ffffff;
-}
-
-.how-it-works .icon-wrapper i {
-    font-size: 2em; 
-}
-
 .how-it-works .text-content h3 {
     font-size: 1.5em;
     margin-top: 0;
     margin-bottom: 50px;
     color: #32cd32; 
+    font-family: exo 2;
+    font-weight: bolder ;
 }
 
 .how-it-works .text-content p {
     font-size: 1em;
     line-height: 1.4;
     color: #ffffff;
+    font-family: IBM plex sans;
 }
 
 
@@ -87,11 +70,6 @@
         text-align: left;
     }
 
-    .how-it-works .icon-wrapper {
-        margin-bottom: 15px;
-        margin-right: 0;
-    }
-
     .how-it-works .text-content h3 {
         font-size: 1.3em;
     }
@@ -108,14 +86,5 @@
 
     .how-it-works .subtitle {
         font-size: 0.9em;
-    }
-
-    .how-it-works .icon-wrapper {
-        width: 50px;
-        height: 50px;
-    }
-
-    .how-it-works .icon-wrapper i {
-        font-size: 1.8em;
     }
 }
