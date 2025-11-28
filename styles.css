@@ -2,12 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&display=swap');
 
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 .how-it-works {
     background-color: #1e3a8a;
     color: #ffffff;
     padding: 60px 20px;
     font-family: 'Orbitron', sans-serif; 
     text-align: center;
+    min-height: 100vh; 
+    box-sizing: border-box; 
 }
 
 .how-it-works .container {
@@ -32,7 +40,7 @@
 
 .how-it-works .step {
     display: flex;
-    align-items: center;
+    align-items: center; 
     margin-bottom: 30px;
     text-align: left;
 }
@@ -51,7 +59,7 @@
     margin-bottom: 10px; 
     color: #32cd32; 
     font-family: 'IBM Plex Sans', sans-serif; 
-    font-weight: 900;
+    font-weight: 900; 
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
 }
 
@@ -63,9 +71,9 @@
 }
 
 .how-it-works .step .image img {
-    width: 80px;
+    width: 70px;
     height: auto;
-    display: block;
+    display: block; 
 }
 
 .how-it-works .step .image {
