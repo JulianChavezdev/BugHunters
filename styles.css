@@ -61,3 +61,9 @@
     color: #ffffff;
     font-family: 'Exo 2', Times, serif; 
 }
+
+.how-it-works .step image {
+    width: 60px;
+    height: auto;
+    flex-shrink: 0;
+}
