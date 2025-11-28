@@ -1,82 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&display=swap');
 
-body, html {
+
+
+body {
     margin: 0;
-    padding: 0;
-    height: 100%; 
+    font-family: Arial, sans-serif; 
+    background-color: #1d3270; 
+    color: white;
 }
 
-.how-it-works {
-    background-color: #1e3a8a;
-    color: #ffffff;
+
+.trust-section {
     padding: 60px 20px;
-    font-family: 'Orbitron', sans-serif; 
     text-align: center;
-    min-height: 100vh; 
-    box-sizing: border-box; 
 }
 
-.how-it-works .container {
+
+.section-title {
+    font-size: 2.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
     max-width: 900px;
     margin: 0 auto;
 }
 
-.how-it-works h2 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    color: #ffffff;
-    font-weight: bold;
-}
 
-.how-it-works .subtitle {
-    font-size: 1.1em;
-    font-family: 'Exo 2', sans-serif; 
-    margin-bottom: 50px;
-    line-height: 1.5;
-    color: #e0e0e0; 
-}
-
-.how-it-works .step {
+.logo-block {
+    width: 160px; 
+    height: 100px; 
     display: flex;
-    align-items: flex-start; 
-    margin-bottom: 30px;
-    text-align: left;
-}
-
-.how-it-works .text-content {
-    margin-left: 40px; 
-}
-
-.how-it-works .step:last-child {
-    margin-bottom: 0;
-}
-
-.how-it-works .text-content h3 {
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px; 
+    font-weight: bold;
     font-size: 1.5em;
-    margin-top: 0;
-    margin-bottom: 10px; 
-    color: #32cd32; 
-    font-family: 'IBM Plex Sans', sans-serif; 
-    font-weight: 900; 
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
+    color: white; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.how-it-works .text-content p {
-    font-size: 1em;
-    line-height: 1.4;
-    color: #ffffff;
-    font-family: 'Exo 2', Times, serif; 
+
+
+.rockstar {
+    background-color: #fca311; 
+    color: black; 
+    font-size: 2em; 
+    width: 900px;
 }
 
-.how-it-works .step .image img {
-    width: 80px;
-    height: auto;
-    display: block; 
+.twitch {
+    background-color: #9146ff;
+    color: white;
 }
 
-.how-it-works .step .image {
-    flex-shrink: 0;
-    margin-top: -11px;
+.acer {
+    background-color: #83c316; 
+    color: white;
+    font-size: 2em;
+}
+
+.nintendo {
+    background-color: #e60012; 
+    color: white;
 }
