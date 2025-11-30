@@ -282,6 +282,79 @@ main {
     font-family: 'Roboto', sans-serif;
 }
 
+.how-it-works {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    padding: 60px 20px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    min-height: 50vh;
+    box-sizing: border-box;
+}
+
+.how-it-works .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.how-it-works h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.how-it-works .subtitle {
+    font-size: 1.1em;
+    font-family: 'Exo 2', sans-serif;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    color: #e0e0e0;
+}
+
+.how-it-works .step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.how-it-works .text-content {
+    margin-left: 40px;
+}
+
+.how-it-works .step:last-child {
+    margin-bottom: 0;
+}
+
+.how-it-works .text-content h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #32cd32;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 900;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
+}
+
+.how-it-works .text-content p {
+    font-size: 1em;
+    line-height: 1.4;
+    color: #ffffff;
+    font-family: 'Exo 2', Times, serif;
+}
+
+.how-it-works .step .image img {
+    width: 80px;
+    height: auto;
+    display: block;
+}
+
+.how-it-works .step .image {
+    flex-shrink: 0;
+    margin-top: -11px;
+}
+
 .trust-section {
     padding: 150px 0;
     text-align: center;
@@ -520,4 +593,4 @@ main {
 
 .footer-links a:hover {
     text-decoration: underline;
-}
+}   
