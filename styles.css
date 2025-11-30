@@ -101,19 +101,3 @@ text-transform: uppercase;
 .submit-button:hover {
 background-color: #00D068;
 }
-
-@media (max-width: 600px) {
-.form-container {
-margin: 20px;
-padding: 20px;
-}
-
-.form-row {
-flex-direction: column;
-gap: 0;
-}
-
-.input-group {
-margin-bottom: 15px;
-}
-}
