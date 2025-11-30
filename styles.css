@@ -19,6 +19,7 @@ body {
     color: #00d9ff;
     font-size: 40px;
     margin-bottom: 10px;
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.8);
 }
 
 .services-description {
@@ -45,15 +46,17 @@ body {
     width: 300px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
 }
 
 .card-image {
-    width: 100px;
-    height: auto;
+    height: 90px;
+    width: auto;
+    object-fit: contain;
     margin-bottom: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .icon-testing {
@@ -62,8 +65,7 @@ body {
 
 .icon-audit {
     width: 90px;
-    margin-top: -10px; 
-    margin-bottom: 5px;
+    margin-bottom: 13px;
 }
 
 .icon-api {
@@ -75,6 +77,12 @@ body {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 15px;
+    height: 60px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    line-height: 1.2;
+    width: 100%;
 }
 
 .card-text {
