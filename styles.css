@@ -1,61 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif; 
-            background-color: #1d3270;
-            min-width: 1200px; 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    background-color: #1d3270;
+    min-width: 1200px; 
 }
 
 .trust-section {
-        padding: 150px 0;
-        text-align: center;
-        width: 100%;
+    padding: 150px 0;
+    text-align: center;
+    width: 100%;
 }
 
 .section-title {
-        font-family: 'Orbitron', sans-serif;
-        font-size: 32px;
-        color: white;
-        text-transform: uppercase;
-        margin-bottom: 50px; 
-        letter-spacing: 2px; 
+    font-family: 'Orbitron', sans-serif;
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
 .logo-container {
-        width: 1000px; 
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        gap: 30px;
+    width: 1000px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px; 
 }
 
 .cajita-logo {
-        width: 220px;
-        height: 120px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px;
+    width: 220px;
+    height: 120px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .cajita-logo img {
-        max-width: 160px;
-        max-height: 90px;
+    max-width: 160px;
+    max-height: 90px;
+    pointer-events: none; 
+}
+
+.cajita-logo:hover {
+    transform: scale(1.15); 
+    filter: brightness(1.2);
+    cursor: pointer;
+    z-index: 10; 
 }
 
 .rockstar {
     background-color: #f8ac00; 
+    box-shadow: 2px 2px 20px #f8ac00;
 }
 
 .twitch {
-        background-color: #9146ff;
+    background-color: #9146ff;
+    box-shadow: 2px 2px 20px #9146ff;
 }
 
 .acer {
-        background-color: #60bf19; 
+    background-color: #60bf19; 
+    box-shadow: 2px 2px 20px #60bf19;
 }
 
 .nintendo {
-        background-color: #de0000; 
+    background-color: #de0000; 
+    box-shadow: 2px 2px 20px #de0000;
 }
