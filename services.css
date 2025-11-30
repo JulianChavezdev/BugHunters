@@ -22,7 +22,7 @@ body {
     height: 85px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .header-inner {
@@ -71,6 +71,7 @@ nav {
     text-decoration: none;
     color: white;
     font-size: 14px;
+    font-weight: 700;
     letter-spacing: 1px;
     font-family: 'Orbitron', sans-serif;
     transition: color 0.3s;
@@ -151,8 +152,6 @@ nav {
     min-height: 520px;
 }
 
-.card-content-top {
-}
 
 .plan-name {
     font-family: 'Orbitron';
