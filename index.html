@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>BUGHUNTERS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <header class="header">
+    <header class="header">
         <div class="logo">
             <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1763720700/image_ileck0.png" alt="Logo Empresa de BugHunters">
         </div>
@@ -17,18 +16,16 @@
                 <li class="name">BUGHUNTERS</li>
             </ul>
             <ul class="nav-links">
-                <li><a href="index.html">INICIO</a></li>
-                <li><a href="services.html">SERVICIOS</a></li>
-                <li><a href="team.html">EQUIPO</a></li>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">SERVICIOS</a></li>
+                <li><a href="#">EQUIPO</a></li>
             </ul>
         </nav>
         <a href="#" class="btr"><button>SOLICITAR PRESUPUESTO</button></a>
-
     </header>
     
-<div class="hero">
+    <div class="hero">
         <main class="container">
-            
             <div class="media-column">
                 <div class="video-frame">
                     <video src="https://res.cloudinary.com/duzljw2pp/video/upload/v1763468541/518d63d3-eb87-4eba-96f2-add26197ebcd_gicjsp.mp4" autoplay muted loop playsinline></video>
@@ -43,11 +40,103 @@
                     <a href="#" class="bt"><button class="btn">SOLICITAR PRESUPUESTO</button></a>
                 </div>
             </div>
-
         </main>
+    </div> 
 
-    <footer>
+    <section id="section-2" class="services">
+        <div class="seccion-servicios">
+            <h1 class="titulo-principal">Nuestros Servicios</h1>
+            <p class="descripcion-servicios">Brindamos servicios de seguridad integral para proteger el valor y la continuidad de sus activos digitales.</p>
+            <div class="contenedor-tarjetas">
+                
+                <div class="tarjeta">
+                    <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1763989766/Captura_de_pantalla_2025-11-24_140752_ftgkao.png" alt="Icono Seguridad" class="imagen-tarjeta1 icono-testing">
+                    <div class="titulo-tarjeta">Penetration Testing</div>
+                    <p class="texto-tarjeta">Recreamos escenarios de ataque del mundo real para detectar, priorizar y parchear vulnerabilidades en sus aplicaciones web</p>
+                </div>
 
+                <div class="tarjeta">
+                    <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1763989796/Captura_de_pantalla_2025-11-24_140807_oipaep.png" alt="Icono Código" class="imagen-tarjeta icono-auditoria">
+                    <div class="titulo-tarjeta">Auditoría de Código</div>
+                    <p class="texto-tarjeta">Examinamos su código en detalle para detectar vulnerabilidades y elevar los estándares de calidad y seguridad de sus aplicaciones.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1763989808/Captura_de_pantalla_2025-11-24_140813_f0ibnw.png" alt="Icono API" class="imagen-tarjeta icono-api">
+                    <div class="titulo-tarjeta">Análisis de Seguridad API</div>
+                    <p class="texto-tarjeta">Evaluamos la arquitectura y configuración de sus APIs para asegurar su resistencia ante vulnerabilidades y prevenir filtraciones de datos.</p>
+                </div>
+
+            </div> 
+        </div>
+    </section>
+
+    <section class="trust-section">
+        <h2 class="section-title">Empresas Que Confían en Nosotros</h2>
+        <div class="logo-container">
+            <a href="https://www.rockstargames.com/es/" target="_blank" class="logo-box rockstar">
+                <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1763110240/Logo_Rockstar_lrhwgs.png" alt="Rockstar">
+            </a>
+            <a href="https://www.twitch.tv/?lang=es-ES" target="_blank" class="logo-box twitch">
+                <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1764328199/logo_twitch_egmzvz.jpg" alt="Twitch">
+            </a>
+            <a href="https://store.acer.com/es-es/" target="_blank" class="logo-box acer">
+                <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1763110108/Logo_Acer_fh3ebh.png" alt="Acer">
+            </a>
+            <a href="https://www.nintendo.com/es-es/" target="_blank" class="logo-box nintendo">
+                <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1763110078/Logo_Nintendo_jh5as5.png" alt="Nintendo">
+            </a>
+        </div>
+    </section>
+
+    <section class="budget-section">
+        <div class="form-container">
+            <h1 class="budget-title">Solicitar Presupuesto</h1>
+            <p class="budget-subtitle">Complete el siguiente formulario y nuestro equipo se pondrá en contacto con usted en un plazo de 24 horas con una cotización personalizada</p>
+            
+            <form action="#" method="POST" class="budget-form">
+                
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="full-name">Nombre Completo</label>
+                        <input type="text" id="full-name" name="full-name" placeholder="Ej: Juan Pérez">
+                    </div>
+                    <div class="input-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Ej: +34 611 18 61 03">
+                    </div>
+                </div>
+
+                <div class="input-group full-width">
+                    <label for="email">Correo Electrónico Laboral</label>
+                    <input type="email" id="email" name="email" placeholder="Ej: juan.perez@empresa.com">
+                </div>
+                
+                <div class="input-group full-width">
+                    <label for="description">Descripción de Sus Necesidades</label>
+                    <textarea id="description" name="description" rows="5" placeholder="Proporcione una breve descripción de su proyecto y en qué áreas requiere asistencia."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">Enviar Solicitud</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="left-section">
+                <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1763720700/image_ileck0.png" alt="Logo" class="logo">
+                <h2 class="title">BugHunters</h2>
+            </div>
+
+            <div class="right-section">
+                <p class="copyright">© 2025 Bug Hunters. Todos los derechos reservados</p>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos de Servicios</a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
