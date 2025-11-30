@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 body {
@@ -86,29 +87,30 @@ nav {
 }
 
 .header-btn {
-    background-color: #00B453;
+    font-weight: 900;
     color: #1D3270;
-    padding: 10px 20px;
+    padding: 9px 20px;
+    background: #00D068;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease 0 ;
+    font-weight: 800;
     text-decoration: none;
-    font-weight: bold;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 14px;
-    border-radius: 4px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-family: 'orbitron', sans-serif;
 }
 
 .header-btn:hover {
-    background-color: #00D068;
+    background-color: #F5F5F5;
+    color:#00D068;
     transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 0 15px rgba(0, 208, 104, 0.6);
-    letter-spacing: 1px;
+
 }
 
 .plans-section {
     text-align: center;
-    padding: 60px 0;
-    width: 1200px;
+    padding: 0px ;
+    width: 1300px;
     margin: 0 auto;
     flex-grow: 1;
 }
@@ -118,6 +120,7 @@ nav {
     color: #00D068;
     font-size: 48px;
     margin-bottom: 20px;
+    margin-top: 40px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -150,6 +153,7 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     min-height: 520px;
+    margin-bottom: 30px;
 }
 
 
@@ -227,52 +231,50 @@ nav {
     filter: brightness(0.9);
 }
 
-footer {
-    background-color: #1D3270;
-    border-top: 1px solid #1D3270;
-    padding: 30px 0;
+.footer {
+    background-color: #1a2652;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    margin-top: auto;
 }
-
-.footer-container {
-    width: 1200px;
+.container {
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    flex-wrap: wrap;
 }
-
-.footer-left {
+.left-section {
     display: flex;
     align-items: center;
-    gap: 15px;
 }
-
-.logo-footer {
-    height: 50px;
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
 }
-
-.footer-brand {
-    font-family: 'Orbitron';
-    font-size: 24px;
-    font-weight: bold;
+.title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    margin: 0px;
 }
-
-.footer-right {
+.right-section {
     text-align: right;
-}
-
-.copyright {
     font-size: 14px;
-    margin-bottom: 5px;
 }
-
+.copyright {
+    margin: 0 0 5px 0;
+}
 .footer-links a {
-    color: white;
+    color:white;
     text-decoration: none;
-    font-size: 12px;
     margin-left: 15px;
     font-weight: bold;
+    font-size: 15px;
+}
+.footer-links a:hover{
+    text-decoration: underline;
 }

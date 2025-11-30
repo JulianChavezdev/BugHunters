@@ -103,7 +103,7 @@ main {
 .header .btr button:hover {
     background-color: #FFFFFF;
     color: #00D068;
-    transform: scale(1.1);
+    transform: translateY(-3px) scale(1.05);
 }
 
 .body .hero {
@@ -536,7 +536,7 @@ main {
 .submit-button:hover {
     background-color: #FFFFFF;
     color: #00D068;
-    transform: scale(1.05);
+    transform: translateY(-3px) scale(1.05);
 }
 
 .footer {

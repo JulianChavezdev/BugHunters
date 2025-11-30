@@ -86,6 +86,7 @@ body{
     color: #00D068; 
 }
 
+
 .header .btr button{
     font-weight: 900;
     color: #1D3270;
@@ -101,7 +102,7 @@ body{
 .header .btr button:hover{
     background-color: #F5F5F5;
     color:#00D068;
-    transform: scale(1.1);
+    transform: translateY(-3px) scale(1.05);
 }
 
 
@@ -205,9 +206,7 @@ main {
     color: #cfd8dc;
 }
 
-main {
-    flex: 1;
-}
+
 .footer {
     background-color: #1a2652;
     color: white;
