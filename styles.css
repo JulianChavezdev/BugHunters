@@ -1,7 +1,5 @@
-/* 1. Imports Unificados (Orbitron + Roboto) */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&family=Roboto:wght@300;400;700&display=swap');
 
-/* 2. Reset Global */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -22,7 +20,6 @@ main {
     flex: 1;
 }
 
-/* --- HEADER --- */
 .header {
     background-color: #1D3270;
     display: flex;
@@ -92,6 +89,7 @@ main {
 }
 
 .header .btr button {
+    font-family: 'Orbitron', sans-serif;
     font-weight: 800;
     color: #1D3270;
     padding: 9px 20px;
@@ -100,15 +98,15 @@ main {
     border-radius: 3px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    box-shadow: -6px 6px 15px rgba(0, 0, 0, 0.5);
 }
 
 .header .btr button:hover {
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     color: #00D068;
     transform: scale(1.1);
 }
 
-/* --- HERO SECTION --- */
 .body .hero {
     position: relative;
 }
@@ -186,7 +184,7 @@ main {
     text-decoration: none;
     font-family: 'Orbitron', sans-serif;
     background-color: #00D068;
-    color: #1E3A8A;
+    color: #1D3270;
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -198,12 +196,11 @@ main {
 }
 
 .btn:hover {
-    background-color: white;
+    background-color: #FFFFFF;
     color: #00D068;
     transform: scale(1.1);
 }
 
-/* --- SECCION SERVICIOS --- */
 .seccion-servicios {
     text-align: center;
     max-width: 1200px;
@@ -285,11 +282,11 @@ main {
     font-family: 'Roboto', sans-serif;
 }
 
-/* --- TRUST SECTION / LOGOS --- */
 .trust-section {
     padding: 150px 0;
     text-align: center;
     width: 100%;
+    background-color: #1a2652;
 }
 
 .section-title {
@@ -337,7 +334,6 @@ main {
     z-index: 10;
 }
 
-/* Colores Específicos de Marcas */
 .rockstar {
     background-color: #f8ac00;
     box-shadow: 2px 2px 20px #f8ac00;
@@ -353,13 +349,124 @@ main {
     box-shadow: 2px 2px 20px #60bf19;
 }
 
-/* Corrección: Se agregó la llave de cierre que faltaba */
 .nintendo {
     background-color: #de0000;
     box-shadow: 2px 2px 20px #de0000;
 }
 
-/* --- FOOTER --- */
+.budget-section {
+    background-color: #1E3A8A;
+    margin: 0;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+}
+
+.form-container {
+    background-color: #444444;
+    color: #D9E4FF;
+    padding: 30px 40px;
+    border-radius: 5px;
+    width: 700px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+.budget-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.budget-subtitle {
+    font-family: 'exo 2', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    color: #F5F5F5;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group.full-width {
+    flex: none;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.form-container label {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #F5F5F5;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.form-container input[type="text"], 
+.form-container input[type="tel"], 
+.form-container input[type="email"], 
+.form-container textarea {
+    background-color: #D9D9D9;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 3px;
+    color: #4444F2;
+    outline: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.form-container input::placeholder, 
+.form-container textarea::placeholder {
+    color: #7D7D7D;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.submit-button {
+    background-color: #00D068;
+    color: #1D3270;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 25px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    box-shadow: -6px 6px 15px black;
+}
+
+.submit-button:hover {
+    background-color: #FFFFFF;
+    color: #00D068;
+    transform: scale(1.05);
+}
+
 .footer {
     background-color: #1a2652;
     color: white;

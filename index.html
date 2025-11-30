@@ -88,8 +88,39 @@
             </a>
         </div>
     </section>
-    <section id="section-4"></section>
-    <section id="section-5"></section>
+
+    <section class="budget-section">
+        <div class="form-container">
+            <h1 class="budget-title">Solicitar Presupuesto</h1>
+            <p class="budget-subtitle">Complete el siguiente formulario y nuestro equipo se pondrá en contacto con usted en un plazo de 24 horas con una cotización personalizada</p>
+            
+            <form action="#" method="POST" class="budget-form">
+                
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="full-name">Nombre Completo</label>
+                        <input type="text" id="full-name" name="full-name" placeholder="Ej: Juan Pérez">
+                    </div>
+                    <div class="input-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Ej: +34 611 18 61 03">
+                    </div>
+                </div>
+
+                <div class="input-group full-width">
+                    <label for="email">Correo Electrónico Laboral</label>
+                    <input type="email" id="email" name="email" placeholder="Ej: juan.perez@empresa.com">
+                </div>
+                
+                <div class="input-group full-width">
+                    <label for="description">Descripción de Sus Necesidades</label>
+                    <textarea id="description" name="description" rows="5" placeholder="Proporcione una breve descripción de su proyecto y en qué áreas requiere asistencia."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">Enviar Solicitud</button>
+            </form>
+        </div>
+    </section>
 
     <footer class="footer">
         <div class="container">
@@ -107,6 +138,5 @@
             </div>
         </div>
     </footer>
-
 </body>
 </html>
