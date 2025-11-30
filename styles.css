@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&display=swap');
 
 body {
     background-color: #1E3A8A;
@@ -27,16 +29,16 @@ body {
     text-align: center;
     margin-bottom: 10px;
     text-transform: uppercase;
-    color: #D9E4FF;
+    color: #F5F5F5;
 }
 
 .subtitle {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'exo 2', sans-serif;
     font-size: 1em;
     text-align: center;
     margin-bottom: 30px;
     line-height: 1.4;
-    color: #D9E4FF;
+    color: #F5F5F5;
 }
 
 .form-row {
@@ -62,32 +64,32 @@ label {
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 0.9em;
-    color: #D9E4FF;
+    color: #F5F5F5;
 }
 
 input[type="text"], 
 input[type="tel"], 
 input[type="email"], 
 textarea {
-    background-color: #D9E4FF;
+    background-color: #D9D9D9;
     border: none;
     padding: 10px 15px;
     font-size: 1em;
     border-radius: 3px;
-    color: #444444;
+    color: #4444F2;
     outline: none;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
 input::placeholder, textarea::placeholder {
-    color: #777777;
+    color: #7D7D7D;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .submit-button {
     background-color: #00B453;
-    color: #D9E4FF;
-    font-family: 'Orbitron', sans-serif;
+    color: #1E3A8A;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700;
     font-size: 1.2em;
     padding: 15px 30px;
