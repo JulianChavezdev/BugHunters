@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:wght@300;400;700&display=swap');
 
 
 * {
@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding-top: 85px;
 }
 
 main {
@@ -30,7 +31,11 @@ main {
     align-items: center;
     height: 85px;
     padding: 5px 20px;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
     z-index: 100;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -120,10 +125,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative; 
+    position: relative;
     padding-bottom: 50px;
 }
-
 
 .hero .container {
     width: 100%;
@@ -158,7 +162,6 @@ main {
 .text-column {
     max-width: 800px;
     position: relative;
-    
 }
 
 .text-column h1 {
@@ -212,7 +215,6 @@ main {
     width: 100%;
     margin: 0 auto;
     padding: 50px 20px;
-
 }
 
 .titulo-principal {
@@ -230,7 +232,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 }
 
 .contenedor-tarjetas {
@@ -249,7 +251,6 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-family: 'Roboto', sans-serif;
 }
-
 
 .imagen-tarjeta, .imagen-tarjeta1 {
     width: 100px;
@@ -298,7 +299,6 @@ main {
     margin-top: auto;
 }
 
-
 .footer .container {
     width: 90%;
     margin: 0 auto;
@@ -344,4 +344,64 @@ main {
 
 .footer-links a:hover {
     text-decoration: underline;
+}
+
+
+.how-it-works {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    padding: 60px 20px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+.how-it-works .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.how-it-works h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.how-it-works .subtitle {
+    font-size: 1.1em;
+    font-family: 'Exo 2', sans-serif;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    color: #e0e0e0;
+}
+
+.how-it-works .step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.how-it-works .text-content {
+    margin-left: 20px;
+}
+
+.how-it-works .step:last-child {
+    margin-bottom: 0;
+}
+
+.how-it-works .text-content h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #32cd32;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+}
+
+.how-it-works .text-content p {
+    font-size: 1em;
+    line-height: 1.4;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
 }
