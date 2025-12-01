@@ -1,81 +1,76 @@
 🛡️ BugHunters - Cybersecurity Landing Page
 ===========================================
 
-> **"Eliminamos Bugs antes de que Impacten tu Negocio"**
+> **"We Eliminate Bugs Before They Impact Your Business"**
 
-Este repositorio contiene el código fuente de la landing page corporativa para **BugHunters**, una firma de ciberseguridad de alto nivel. El proyecto destaca por su estética "Cyber/Tech" y su enfoque en la estabilidad visual absoluta.
+This repository contains the source code for the corporate landing page of **BugHunters**, a high-level cybersecurity firm. The project stands out for its "Cyber/Tech" aesthetic and its focus on absolute visual stability.
 
-📌 Descripción del Proyecto
+📌 Project Description
+----------------------
+
+The goal of this development was to create an interface that conveys **solidity, security, and advanced technology**. Unlike standard fluid design trends, BugHunters was built under a philosophy of **High-Fidelity Static Design**.
+
+This technical decision ensures the visual experience is identical, pixel-by-pixel, on target screens (desktop monitors and high-resolution presentations), avoiding the visual compromises that often come with excessive adaptability.
+
+🚀 Key Features
+---------------
+
+### 🔒 "Zero-Responsive" Design
+
+-   **Forced width of 1400px:** Ensures design integrity without unexpected shifts.
+
+-   **Controlled horizontal scroll:** Enabled for smaller devices, prioritizing full information visualization without collapsing elements into "hamburgers" or stacked columns.
+
+### 🎨 Cyberpunk/Security Aesthetic
+
+-   **Color Palette:** *Deep Navy* (#1D3270), *Dark Royal Blue* (#1E3A8A), and *Neon Green* (#00D068).
+
+-   **Typography:** Strategic use of **Orbitron** for brand identity and **Roboto** for technical readability.
+
+-   **Immersive UI:** Stylized video frames, solid shadows ("flat shadows"), and high-contrast hover states.
+
+🛠️ Technologies Used
+---------------------
+
+A pure stack, dependency-free, focused on performance and code clarity.
+
+-   **Semantic HTML5:** Clear and accessible structure.
+
+-   **CSS3:**
+
+    -   Total layout control without frameworks (Bootstrap/Tailwind).
+
+    -   Use of variables and simplified BEM methodology.
+
+    -   Google Fonts import.
+
+-   **Cloudinary:** CDN for optimized delivery of high-quality multimedia assets.
+
+📂 Project Structure
+--------------------
+
+Plaintext
+
+```
+├── README.md        # Project documentation
+├── index.html       # Main layout and DOM structure
+├── styles.css       # Static styles and visual theme definition
+├── services.html    # Services page layout and structure
+├── services.css     # Static styles for services page
+├── team.html        # Team page layout and structure
+└── team.css         # Static styles for team page
+
+```
+
+🔧 Installation and Viewing
 ---------------------------
 
-El objetivo de este desarrollo fue crear una interfaz que transmita **solidez, seguridad y tecnología avanzada**. A diferencia de las tendencias de diseño fluido estándar, BugHunters se construyó bajo una filosofía de **Diseño Estático de Alta Fidelidad**.
+1.  `git clone [https://github.com/JulianChavezdev/BugHunters]`
 
-Esta decisión técnica garantiza que la experiencia visual sea idéntica, pixel por pixel, en las pantallas objetivo (monitores de escritorio y presentaciones de alta resolución), evitando los compromisos visuales que a veces conlleva la adaptabilidad excesiva.
+2.  **⚠️ Viewing Note:** To appreciate the design exactly as it was conceived, a screen resolution of at least **1920x1080** or higher is recommended.
 
-🚀 Características Clave
-------------------------
-
-### 🔒 Diseño "Zero-Responsive" (
-
--   **Ancho forzado de 1400px:** Garantiza la integridad del diseño sin desplazamientos inesperados.
-
--   **Scroll horizontal controlado:** Habilitado para dispositivos menores, priorizando la visualización completa de la información sin colapsar elementos en "hamburguesas" o columnas apiladas.
-
-### 🎨 Estética Cyberpunk/Security
-
--   **Paleta de colores:**  *Deep Navy* (#1D3270) , *Dark Royal Blue* (#1E3A8A) y *Neon Green* (#00D068).
-
--   **Tipografía:** Uso estratégico de **Orbitron** para identidad de marca y **Roboto** para legibilidad técnica.
-
--   **UI Inmersiva:** Marcos de video estilizados, sombras sólidas ("flat shadows") y estados hover de alto contraste.
-
-🛠️ Tecnologías Utilizadas
---------------------------
-
-Un stack puro, sin dependencias, enfocado en el rendimiento y la claridad del código.
-
--   **HTML5 Semántico:** Estructura clara y accesible.
-
--   **CSS3 :**
-
-    -   Control total del layout sin frameworks (Bootstrap/Tailwind).
-
-    -   Uso de variables y metodología BEM simplificada.
-
-    -   Importación de Google Fonts.
-
--   **Cloudinary:** CDN para la entrega optimizada de assets multimedia de alta calidad.
-
-📂 Estructura del Proyecto
---------------------------
-README.md        # Documentación del proyecto
-
-├── README.md        # Documentación del proyecto
-
-├── index.html       # Maquetación principal y estructura DOM
-
-└── styles.css       # Estilos estáticos y definición del tema visual
-
-├── services.html    # Maquetación y estructura de pagina services.
-
-├── services.css     # Estilos estáticos y definición del tema visual
-
-└── team.html        # Maquetacion de y estructura de pagina teams.
-
-└── team.css         # Documentación del proyecto
-
-
-
-🔧 Instalación y Visualización
-------------------------------
-
-1.  git clone [https://github.com/JulianChavezdev/BugHunters]
-
-2.  **⚠️ Nota de Visualización:** Para apreciar el diseño tal como fue concebido, se recomienda usar una resolución de pantalla de al menos **1920x1080** o superior.
-
-📸 Previsualización
--------------------
-
+📸 Preview
+----------
 ![HERO1](https://res.cloudinary.com/det6jfwzx/image/upload/v1764594804/c74745d4-e4b1-4e03-852b-caa1065475fa.png)
 ![HERO2](https://res.cloudinary.com/det6jfwzx/image/upload/v1764594834/c06dafc7-7267-44b1-a6e0-eac922af42f1.png)
 ![HERO5](https://res.cloudinary.com/det6jfwzx/image/upload/v1764594857/c84237ba-a670-40c7-a1c7-c7165515f418.png)
@@ -84,21 +79,17 @@ README.md        # Documentación del proyecto
 ![SERVICES](https://res.cloudinary.com/det6jfwzx/image/upload/v1764594937/d0dabada-a043-468e-a2d0-078ffa8c8eb3.png)
 ![TEAM](https://res.cloudinary.com/det6jfwzx/image/upload/v1764594968/c2844b8f-9d1e-4163-a5af-18fcdf423d71.png)
 
+*High visual impact static interface*
 
+✒️ Authors
+----------
 
+**[Nacho Garrido]** -*DAW Student, CEI Seville*
 
-*Interfaz estática de alto impacto visual*
+**[Alba Ruiz]** -*DAW Student, CEI Seville*
 
-✒️ Autores
---------
+**[Brandon Chusgo]** -*DAW Student, CEI Seville*
 
-**[Nacho Garrido]**   -*Estudiante de FP Daw, Cei Sevilla*
+**[Daniel Chaves]** -*DAW Student, CEI Seville*
 
-**[Alba Ruiz]**       -*Estudiante de FP Daw, Cei Sevilla*  
-
-**[Brandon Chusgo]**  -*Estudiante de FP Daw, Cei Sevilla*
-
-**[Daniel Chaves]**   -*Estudiante de FP Daw, Cei Sevilla*
-
-**[Julian Chavez]**   -*Estudiante de FP Daw, Cei Sevilla*
-
+**[Julian Chavez]** -*DAW Student, CEI Seville*
