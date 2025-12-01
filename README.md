@@ -62,12 +62,10 @@ Plaintext
 
 ```
 
-🔧 Installation and Viewing
+🔧Viewing
 ---------------------------
+**DEPLOYED ON VERCEL**(https://bughunters-zeta.vercel.app/index.html)
 
-1.  `git clone [https://github.com/JulianChavezdev/BugHunters]`
-
-2.  **⚠️ Viewing Note:** To appreciate the design exactly as it was conceived, a screen resolution of at least **1920x1080** or higher is recommended.
 
 📸 Preview
 ----------
