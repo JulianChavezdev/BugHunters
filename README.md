@@ -78,8 +78,8 @@ README.md        # Documentación del proyecto
 
 ![HERO1](https://res.cloudinary.com/det6jfwzx/image/upload/v1764594804/c74745d4-e4b1-4e03-852b-caa1065475fa.png)
 ![HERO2](https://res.cloudinary.com/det6jfwzx/image/upload/v1764594834/c06dafc7-7267-44b1-a6e0-eac922af42f1.png)
-![HERO3](https://res.cloudinary.com/det6jfwzx/image/upload/v1764594994/ef6822f1-538e-4812-8576-99534f4ee515.png)
 ![HERO5](https://res.cloudinary.com/det6jfwzx/image/upload/v1764594857/c84237ba-a670-40c7-a1c7-c7165515f418.png)
+![HERO3](https://res.cloudinary.com/det6jfwzx/image/upload/v1764594994/ef6822f1-538e-4812-8576-99534f4ee515.png)
 ![HERO4](https://res.cloudinary.com/det6jfwzx/image/upload/v1764594902/31d021e4-c674-4eb7-a375-47555f25a4fd.png)
 ![SERVICES](https://res.cloudinary.com/det6jfwzx/image/upload/v1764594937/d0dabada-a043-468e-a2d0-078ffa8c8eb3.png)
 ![TEAM](https://res.cloudinary.com/det6jfwzx/image/upload/v1764594968/c2844b8f-9d1e-4163-a5af-18fcdf423d71.png)
@@ -93,8 +93,12 @@ README.md        # Documentación del proyecto
 --------
 
 **[Nacho Garrido]**   -*Estudiante de FP Daw, Cei Sevilla*
+
 **[Alba Ruiz]**       -*Estudiante de FP Daw, Cei Sevilla*  
+
 **[Brandon Chusgo]**  -*Estudiante de FP Daw, Cei Sevilla*
+
 **[Daniel Chaves]**   -*Estudiante de FP Daw, Cei Sevilla*
+
 **[Julian Chavez]**   -*Estudiante de FP Daw, Cei Sevilla*
 
