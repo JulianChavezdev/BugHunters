@@ -25,6 +25,7 @@ body{
     justify-content: flex-end;
     align-items: center;
     height: 85px;
+    position: fixed;
     padding: 5px 20px;
     position:relative;
     border-bottom: 1px solid rgba(255,255,255,0.1); 
@@ -49,6 +50,7 @@ body{
     color: #F5F5F5;
     list-style: none;
     position:absolute;
+    letter-spacing: normal;
     left: 100px; 
     top: 15px;   
     font-weight: 800;
